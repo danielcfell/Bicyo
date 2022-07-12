@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:icon="@drawable/ic_baseline_explore_24"
+        android:title="@string/txt_discover" />
+    <item
+        android:id="@+id/groupFragment"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="@string/txt_groups" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/txt_profile" />
+</menu>

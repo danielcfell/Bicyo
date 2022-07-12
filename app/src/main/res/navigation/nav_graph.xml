@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.Daniels.bicyo.DiscoverFragment"
+        android:label="@string/txt_discover"
+        tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.Daniels.bicyo.groupFragment"
+        android:label="@string/txt_groups"
+        tools:layout="@layout/fragment_group" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.Daniels.bicyo.profileFragment"
+        android:label="@string/txt_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
