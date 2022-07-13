@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_signup.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/card_layour.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_discover.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_edit_profile.xml" value="0.4" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_group.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/renat/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_profile.xml" value="0.4" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/drawable/custom_background.xml" value="0.178" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/drawable/ic_baseline_home.xml" value="0.152" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/activity_main.xml" value="0.18" />
