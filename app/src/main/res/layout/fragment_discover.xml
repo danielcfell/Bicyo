@@ -16,55 +16,121 @@
         android:id="@+id/searchView"
         android:layout_width="302dp"
         android:layout_height="37dp"
+        android:layout_marginTop="44dp"
         android:autofillHints="@string/txt_buscarRutas"
         android:background="@drawable/custom_background"
         android:backgroundTint="#FFFFFF"
         android:elevation="10dp"
         android:queryHint="@string/txt_buscarRutas"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044">
+        app:layout_constraintTop_toTopOf="parent">
 
     </SearchView>
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="370dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="60dp"
-        android:layout_weight="1"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/custom_background"
-        android:backgroundTint="@android:color/white"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="20dp"
+        app:contentPadding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView">
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="370dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="216dp"
-        android:layout_weight="1"
-        android:background="@drawable/custom_background"
-        android:backgroundTint="@android:color/white"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/view3"
-        android:layout_width="374dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="60dp"
-        android:layout_weight="1"
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="79dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_baseline_person_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/ic_baseline_directions_bike_24"
+                tools:layout_conversion_absoluteHeight="118dp"
+                tools:layout_conversion_absoluteWidth="198dp" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="205dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:padding="10dp"
+                android:text="POLICHASQUI"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="40dp"
+                tools:layout_conversion_absoluteWidth="931dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="216dp"
         android:background="@drawable/custom_background"
-        android:backgroundTint="@android:color/white"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/custom_background"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_background"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="282dp" />
+
+
+
+
