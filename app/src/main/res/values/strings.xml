@@ -24,4 +24,11 @@
     <string name="signup_login_btn">registrarse</string>
     <string name="signup_text_no_account_message">ya tienes una cuenta</string>
     <string name="signup_login_link">inica sesión</string>
+    <string name="profile_name">Mi perfil</string>
+    <string name="profile_Biker">Tadej Pogacar</string>
+    <string name="profile_mail">abcd@gmail.com</string>
+    <string name="profile_description">Como un ingeniero altamente motivado y orientado a conseguir resultados dentro</string>
+    <string name="btn_profileEdition">editar perfil</string>
+    <string name="txt_routes">10 rutas publicadas</string>
+    <string name="txt_profileGroups">4 grupos</string>
 </resources>
