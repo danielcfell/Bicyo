@@ -31,4 +31,7 @@
     <string name="btn_profileEdition">editar perfil</string>
     <string name="txt_routes">10 rutas publicadas</string>
     <string name="txt_profileGroups">4 grupos</string>
+    <string name="txt_map">explorar / Parque Bicentenario</string>
+    <string name="txt_nombreRuta">Nombre de la ruta</string>
+    <string name="btn_crearMap">Crear</string>
 </resources>
