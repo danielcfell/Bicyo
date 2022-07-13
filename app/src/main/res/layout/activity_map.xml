@@ -14,6 +14,7 @@
         app:layout_constraintBottom_toTopOf="@id/constraintLayoutProfileBackBar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread_inside">
+
         <Button
             android:id="@+id/buttonBack"
             style="?android:attr/borderlessButtonStyle"
@@ -22,16 +23,17 @@
             android:layout_marginBottom="0.1dp"
             android:backgroundTint="@color/material_dynamic_primary100"
             android:fontFamily="@font/inter_bold"
-            android:text="BACK"
             android:textAlignment="textStart"
             android:textColor="@color/black"
             android:textSize="24sp"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
             app:iconPadding="0.1dp"
+            app:iconTint="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/MyProfile"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.487" />
+            app:layout_constraintVertical_bias="0.609" />
 
         <TextView
             android:id="@+id/MyProfile"

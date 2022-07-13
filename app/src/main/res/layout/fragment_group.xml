@@ -70,7 +70,7 @@
                 android:layout_marginTop="16dp"
 
                 android:layout_marginBottom="2dp"
-                android:text="Distancia"
+                android:text="Miembros"
                 android:textColor="#717171"
                 android:textSize="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/item_km4"
@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="18 km"
+                android:text="2"
 
                 android:textColor="#717171"
                 android:textSize="20dp"
@@ -107,7 +107,7 @@
                 android:layout_height="49dp"
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="4dp"
-                android:src="@drawable/download"
+                android:src="@drawable/girl"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
 
@@ -199,7 +199,7 @@
                     android:layout_marginTop="16dp"
 
                     android:layout_marginBottom="2dp"
-                    android:text="Distancia"
+                    android:text="Miembros"
                     android:textColor="#717171"
                     android:textSize="16dp"
                     app:layout_constraintBottom_toTopOf="@+id/item_km3"
@@ -211,7 +211,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="18 km"
+                    android:text="2"
 
                     android:textColor="#717171"
                     android:textSize="20dp"
@@ -236,7 +236,7 @@
                     android:layout_height="49dp"
                     android:layout_marginEnd="60dp"
                     android:layout_marginBottom="4dp"
-                    android:src="@drawable/download"
+                    android:src="@drawable/girl"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
 
