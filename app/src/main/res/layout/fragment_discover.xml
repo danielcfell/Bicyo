@@ -32,100 +32,144 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:background="@drawable/custom_background"
-        app:cardBackgroundColor="@android:color/white"
-        app:cardCornerRadius="100dp"
-        app:cardElevation="20dp"
-        app:contentPadding="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/card_view3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view2">
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        tools:cardBackgroundColor="@color/white"
+        tools:cardCornerRadius="20dp"
+        tools:cardElevation="6dp"
+        tools:contentPadding="4dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:padding="16dp">
 
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="79dp"
-                android:layout_height="75dp"
-                android:layout_marginStart="16dp"
-                android:src="@drawable/ic_baseline_person_24"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/info_text"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.466"
-                app:srcCompat="@drawable/ic_baseline_directions_bike_24"
-                tools:layout_conversion_absoluteHeight="118dp"
-                tools:layout_conversion_absoluteWidth="198dp" />
+                android:id="@+id/item_image"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_baseline_directions_bike_24" />
 
             <TextView
-                android:id="@+id/info_text"
-                android:layout_width="205dp"
-                android:layout_height="53dp"
-                android:padding="10dp"
-                android:text="POLICHASQUI"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_conversion_absoluteHeight="40dp"
-                tools:layout_conversion_absoluteWidth="931dp" />
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/item_image"
+                android:layout_toRightOf="@+id/item_image"
+                android:text="Parque Metropolitano"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/item_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:text="Distancia"
+
+                android:textColor="#717171"
+
+
+                android:textSize="16dp"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/item_km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_distance"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+
+                android:text="18 km"
+
+                android:textColor="#717171"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_distance"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="30dp"
+
+                android:text="Tadejj"
+
+                android:textColor="#717171"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/item_autor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_image"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="45dp"
+                android:text="Autor"
+                android:textColor="#717171"
+
+
+                android:textSize="16dp"
+
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/item_Userimage"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/item_title"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/download" />
+
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view_1"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/custom_background"
-        app:cardBackgroundColor="@android:color/white"
-        app:cardCornerRadius="100dp"
-        app:cardElevation="20dp"
+        android:text="+"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view3" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:background="@drawable/custom_background"
-        app:cardBackgroundColor="@android:color/white"
-        app:cardCornerRadius="100dp"
-        app:cardElevation="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/card_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:background="@drawable/custom_background"
-        app:cardBackgroundColor="@android:color/white"
-        app:cardCornerRadius="100dp"
-        app:cardElevation="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/card_view_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view" />
-
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
