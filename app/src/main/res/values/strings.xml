@@ -27,7 +27,7 @@
     <string name="profile_name">Mi perfil</string>
     <string name="profile_Biker">Tadej Pogacar</string>
     <string name="profile_mail">abcd@gmail.com</string>
-    <string name="profile_description">Como un ingeniero altamente motivado y orientado a conseguir resultados dentro</string>
+    <string name="profile_description">Como un ingeniero altamente motivado y orientado a conseguir resultados dentro...</string>
     <string name="btn_profileEdition">editar perfil</string>
     <string name="txt_routes">10 rutas publicadas</string>
     <string name="txt_profileGroups">4 grupos</string>
