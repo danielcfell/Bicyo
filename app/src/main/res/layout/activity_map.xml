@@ -22,7 +22,7 @@
             android:layout_marginBottom="0.1dp"
             android:backgroundTint="@color/material_dynamic_primary100"
             android:fontFamily="@font/inter_bold"
-            android:text="<-"
+            android:text="BACK"
             android:textAlignment="textStart"
             android:textColor="@color/black"
             android:textSize="24sp"
