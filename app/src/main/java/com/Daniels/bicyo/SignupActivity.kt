@@ -10,6 +10,9 @@ class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
+        if (supportActionBar != null) {
+            supportActionBar?.hide();
+        }
     }
     fun goToLogin(view: View){
         val intent = Intent(this, LoginActivity::class.java)

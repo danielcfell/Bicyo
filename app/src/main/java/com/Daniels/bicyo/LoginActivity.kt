@@ -9,6 +9,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        if (supportActionBar != null) {
+            supportActionBar?.hide();
+        }
     }
     fun login(view: View){
         val intent = Intent(this, MainActivity::class.java)

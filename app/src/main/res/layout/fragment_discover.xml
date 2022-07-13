@@ -21,7 +21,6 @@
         android:backgroundTint="#FFFFFF"
         android:elevation="10dp"
         android:queryHint="@string/txt_buscarRutas"
-        app:layout_constraintBottom_toTopOf="@+id/card_view2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,7 +168,5 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
