@@ -26,7 +26,7 @@
             android:layout_marginBottom="0.1dp"
             android:backgroundTint="@color/material_dynamic_primary100"
             android:fontFamily="@font/inter_bold"
-            android:text="<-"
+            android:text="Back"
             android:textColor="@color/black"
             android:textSize="24sp"
             style="?android:attr/borderlessButtonStyle"
