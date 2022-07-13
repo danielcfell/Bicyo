@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< Updated upstream
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/activity_signup.xml" value="0.27447916666666666" />
@@ -10,12 +11,17 @@
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_discover.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_group.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/danie/OneDrive/Documents/GitHub/Bicyo/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+=======
+        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/drawable/circle_background.xml" value="0.178" />
+>>>>>>> Stashed changes
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/drawable/custom_background.xml" value="0.178" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/drawable/ic_baseline_home.xml" value="0.152" />
+        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/activity_login.xml" value="0.1482320942883046" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/card_layour.xml" value="0.18" />
-        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/fragment_discover.xml" value="0.21" />
-        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/fragment_group.xml" value="0.18" />
+        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/cardly.xml" value="0.16417272338606242" />
+        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/fragment_discover.xml" value="0.25" />
+        <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/layout/fragment_group.xml" value="0.25" />
         <entry key="..\:/danie/Develop/Bicyo/app/src/main/res/menu/bottom_menu.xml" value="0.19692307692307692" />
         <entry key="app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.122" />
         <entry key="app/src/main/res/drawable-anydpi/ic_mail.xml" value="0.122" />
