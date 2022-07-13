@@ -3,12 +3,172 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".groupFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="#e4e4e4">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView"
+            tools:cardBackgroundColor="@color/white"
+            tools:cardCornerRadius="20dp"
+            tools:cardElevation="6dp"
+            tools:contentPadding="4dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/ic_baseline_group_24" />
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@id/item_image"
+                    android:layout_toRightOf="@+id/item_image"
+                    android:text="Poli Chasquis"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/item_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_image"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="Miembros"
+
+                    android:textColor="#717171"
+
+
+                    android:textSize="16dp"
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/item_km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_distance"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="3"
+
+                    android:textColor="#717171"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_distance"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="30dp"
+
+                    android:text="Tadejj"
+
+                    android:textColor="#717171"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/item_autor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_image"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="45dp"
+                    android:text="Lider"
+                    android:textColor="#717171"
+
+
+                    android:textSize="16dp"
+
+                    ></TextView>
+
+                <ImageView
+                    android:id="@+id/item_Userimage"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/item_title"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/download" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="76dp"
+            android:layout_marginBottom="128dp"
+            android:background="@drawable/custom_background"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="Unirse"
+            app:iconTint="#911111"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/custom_background"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="Crear"
+            app:iconTint="#911111"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- TODO: Update blank fragment layout -->
+
 
 </FrameLayout>
